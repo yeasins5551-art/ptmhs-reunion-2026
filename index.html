@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="theme-color" content="#101a2b">
-<title>PTMHS Reunion 2026 | Official Registration</title>
+<title>PTMGHS Reunion 2026 | Official Registration</title>
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;500;600;700&family=Playfair+Display:wght@600;700;800&display=swap');
 :root{--navy:#101a2b;--navy2:#1b2b43;--gold:#d7b875;--gold2:#f0dfb7;--cream:#f6f2e9;--ink:#182337;--muted:#6d7888;--line:#e5e1d8}
@@ -45,7 +45,7 @@ footer{background:#0b1423;color:#d6dce5;text-align:center;padding:37px 20px}foot
 <button class="submit" type="submit">রেজিস্ট্রেশন তথ্য জমা দিন</button><p class="disclaimer">গুরুত্বপূর্ণ: এটি একটি ওয়েবসাইট প্রোটোটাইপ। এই ডেমোতে তথ্য কোনো সার্ভারে জমা হয় না এবং Transaction ID স্বয়ংক্রিয়ভাবে যাচাই হয় না। বাস্তবে রেজিস্ট্রেশন চালুর আগে নিরাপদ Database, Admin Dashboard, Privacy ব্যবস্থা ও bKash/Gateway-এর অনুমোদিত ইন্টিগ্রেশন প্রয়োজন।</p></form>
 <div class="result" id="result"><div class="tickethead"><p>PALASH THANA MODEL HIGH SCHOOL</p><h2>REUNION 2026</h2><p>REGISTRATION SUBMISSION PREVIEW</p></div><h3 style="text-align:center">আপনার জমা দেওয়া তথ্য</h3><div class="ticketdata"><div class="r"><span>Reference ID</span><b id="o-id"></b></div><div class="r"><span>নাম</span><b id="o-name"></b></div><div class="r"><span>ব্যাচ</span><b id="o-batch"></b></div><div class="r"><span>মোবাইল</span><b id="o-phone"></b></div><div class="r"><span>Transaction ID</span><b id="o-trx"></b></div><div class="r"><span>ইভেন্ট</span><b>২৬ ডিসেম্বর ২০২৬</b></div><div class="r"><span>ভেন্যু</span><b>স্কুলের মাঠ</b></div><div class="r"><span>পেমেন্ট স্ট্যাটাস</span><b class="pending">যাচাই অপেক্ষমাণ</b></div></div><p class="disclaimer">এটি শুধু ডেমো সাবমিশন প্রিভিউ; অফিসিয়াল রেজিস্ট্রেশন কনফার্মেশন বা প্রবেশপত্র নয়। কমিটি পেমেন্ট যাচাই করার পর অফিসিয়াল স্লিপ ইস্যু করবে।</p><button class="print" onclick="window.print()">প্রিন্ট / PDF হিসেবে সেভ</button></div>
 </div></section>
-<footer><strong>PTMHS REUNION 2026</strong><p>Palash Thana Model High School · 26 December 2026 · School Ground</p><p>একসাথে আবার, স্মৃতির টানে।</p></footer>
+<footer><strong>PTMGHS REUNION 2026</strong><p>Palash Thana Model Government High School · 26 December 2026 · School Ground</p><p>একসাথে আবার, স্মৃতির টানে।</p></footer>
 <script>
 document.getElementById('copyBtn').addEventListener('click',async()=>{try{await navigator.clipboard.writeText('01998775551');document.getElementById('copyBtn').textContent='কপি হয়েছে ✓'}catch(e){document.getElementById('copyBtn').textContent='01998775551'}});
 document.getElementById('regForm').addEventListener('submit',e=>{e.preventDefault();const f=e.currentTarget;if(!f.reportValidity())return;const id='PTMHS26-'+Math.random().toString(36).slice(2,8).toUpperCase();const pairs={'o-id':id,'o-name':document.getElementById('name').value,'o-batch':document.getElementById('batch').value,'o-phone':document.getElementById('phone').value,'o-trx':document.getElementById('trx').value};Object.entries(pairs).forEach(([k,v])=>document.getElementById(k).textContent=v);const result=document.getElementById('result');result.classList.add('show');result.scrollIntoView({behavior:'smooth',block:'center'});});
